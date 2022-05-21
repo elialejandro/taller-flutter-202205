@@ -26,6 +26,21 @@ class AppRoutes {
         nombre: 'Cards',
         screen: const CardScreen(),
         icon: Icons.card_giftcard),
+    MenuOption(
+        route: 'avatar',
+        nombre: 'Avatar',
+        screen: const AvatarScreen(),
+        icon: Icons.supervised_user_circle_outlined),
+    MenuOption(
+        route: 'animated',
+        nombre: 'Animated',
+        screen: const AnimatedScreen(),
+        icon: Icons.play_arrow),
+    MenuOption(
+        route: 'inputs',
+        nombre: 'Inputs',
+        screen: const InputScreen(),
+        icon: Icons.input_rounded),
   ];
 
   static Map<String, Widget Function(BuildContext)> getRoutes() {
